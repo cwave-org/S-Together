@@ -12,6 +12,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
+    public Object onFragmentChange;
     private FragmentManager fragmentManager = getSupportFragmentManager();
     private FragmentHome fragmentHome = new FragmentHome();
     private FragmentSearch fragmentSearch = new FragmentSearch();
@@ -59,6 +60,12 @@ public class MainActivity extends AppCompatActivity {
             }
 
             return true;
+        }
+    }
+    public void onFragmentChange(int fragmentNum) {
+        //sell
+        if (fragmentNum == 1) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.menu_frame_layout, new FragmentTogether2()).commit();
         }
     }
 }

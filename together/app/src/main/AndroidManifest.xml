@@ -19,17 +19,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Calculator"
-            android:exported="false" />
-        <activity
-            android:name=".Calender"
-            android:exported="false" />
-        <activity
-            android:name=".Map"
-            android:exported="false" />
-        <activity
-        android:name=".Bigdata"
-        android:exported="false" />
+            android:name=".Receipt"
+            android:exported="false"/>
     </application>
 
 </manifest>
