@@ -12,6 +12,11 @@
         android:layout_gravity="center"
         android:background="#F1F1F3"
         android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/menu" />
 
         <ImageView
             android:id="@+id/start"

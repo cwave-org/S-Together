@@ -1,17 +1,14 @@
 package com.example.whereigo;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Calculator extends AppCompatActivity {
+public class Calender extends AppCompatActivity {
     public static final int REQUEST_CODE_MENU = 101;
     int i = 0;int j = 0;
     ImageView imageView;
@@ -20,14 +17,9 @@ public class Calculator extends AppCompatActivity {
     TextView textView2;
     TextView textView3;
     TextView textView4;
-    LinearLayout linearLayout1;
-    LinearLayout linearLayout2;
-    LinearLayout linearLayout3;
-    LinearLayout linearLayout4;
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.calculator);
+        setContentView(R.layout.calender);
         textView1=(TextView) findViewById(R.id.top1);
         textView2=(TextView) findViewById(R.id.top2);
         textView3=(TextView) findViewById(R.id.top3);
@@ -83,7 +75,7 @@ public class Calculator extends AppCompatActivity {
         });
 
 
-        imageView=(ImageView)findViewById(R.id.notouch);
+       /* imageView=(ImageView)findViewById(R.id.notouch);
 
         imageView.setImageResource(R.drawable.text);
         imageView.setOnClickListener(new View.OnClickListener(){
@@ -99,7 +91,7 @@ public class Calculator extends AppCompatActivity {
                 }
 
             }
-        });
+        });*/
 
 
     }

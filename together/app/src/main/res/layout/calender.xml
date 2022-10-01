@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Calculator">
+    tools:context=".Calender">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,10 +41,13 @@
                             android:text=" "
                             android:textColor="@color/black"
                             android:textSize="2dp"/>
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="3dp"
-                            android:background="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="2dp"/>
+
             </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
@@ -64,12 +67,11 @@
                     android:text="  캘린더  "
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" "
-                    android:textColor="@color/black"
-                    android:textSize="2dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black"/>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="3dp"
@@ -139,7 +141,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:id="@+id/lay1"
+            android:id="@+id/lay2"
             android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -148,72 +150,24 @@
             android:textColor="@color/black"
             android:textSize="20dp"/>
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/start"
             android:layout_width="380dp"
-            android:layout_height="80dp"
+            android:layout_height="560dp"
             android:layout_gravity="center"
-            android:background="@drawable/top" >
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
-                <!--정렬-->
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1" />
-
-                <!--버튼-->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:background="@drawable/home_back1">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:text="자세히" />
-                </LinearLayout>
-
-                <!--버튼-->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
-                    android:background="@drawable/home_back1">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="송금" />
-                </LinearLayout>
-
-            </LinearLayout>
-        </LinearLayout>
-
+            android:background="@drawable/calender" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" "
             android:textColor="@color/black"
             android:textSize="15dp"/>
-
-            <ImageView
-                android:layout_width="380dp"
-                android:id="@+id/notouch"
-                android:layout_gravity="center"
-                android:layout_height="480dp"/>
         </LinearLayout>
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:background="@drawable/bottom" />
+
     </LinearLayout>
 </LinearLayout>
