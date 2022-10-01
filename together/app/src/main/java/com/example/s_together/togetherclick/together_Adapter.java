@@ -1,4 +1,4 @@
-package com.example.whereigo.togetherclick;
+package com.example.s_together.togetherclick;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

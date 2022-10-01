@@ -1,4 +1,4 @@
-package com.example.whereigo;
+package com.example.s_together;
 
 import android.os.Bundle;
 

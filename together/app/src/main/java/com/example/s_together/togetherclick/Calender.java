@@ -1,4 +1,4 @@
-package com.example.whereigo.togetherclick;
+package com.example.s_together.togetherclick;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,8 +14,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import com.example.whereigo.MainActivity;
-import com.example.whereigo.R;
+import com.example.s_together.MainActivity;
+import com.example.s_together.R;
 
 public class Calender extends Fragment{
 

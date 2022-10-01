@@ -1,4 +1,4 @@
-package com.example.whereigo;
+package com.example.s_together;
 
 import android.content.Context;
 import android.content.Intent;

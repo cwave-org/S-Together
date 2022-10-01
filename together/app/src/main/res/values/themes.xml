@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.WhereIGo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.s_together" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
         <!-- Primary brand color. -->
         <item name="colorPrimary">#676767</item>

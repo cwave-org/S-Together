@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.whereigo">
+    package="com.example.s_together">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="신한플레이"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.WhereIGo">
+        android:theme="@style/Theme.s_together">
         <activity
             android:name=".MainActivity"
             android:exported="true">

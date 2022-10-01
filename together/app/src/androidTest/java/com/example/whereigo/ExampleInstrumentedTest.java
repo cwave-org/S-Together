@@ -1,4 +1,4 @@
-package com.example.whereigo;
+package com.example.s_together;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.whereigo", appContext.getPackageName());
+        assertEquals("com.example.s_together", appContext.getPackageName());
     }
 }

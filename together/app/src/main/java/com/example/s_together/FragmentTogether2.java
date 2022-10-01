@@ -1,4 +1,4 @@
-package com.example.whereigo;
+package com.example.s_together;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,11 +16,11 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.whereigo.togetherclick.Bigdata;
-import com.example.whereigo.togetherclick.Calculator;
-import com.example.whereigo.togetherclick.Calender;
-import com.example.whereigo.togetherclick.Map;
-import com.example.whereigo.togetherclick.together_Adapter;
+import com.example.s_together.togetherclick.Bigdata;
+import com.example.s_together.togetherclick.Calculator;
+import com.example.s_together.togetherclick.Calender;
+import com.example.s_together.togetherclick.Map;
+import com.example.s_together.togetherclick.together_Adapter;
 import com.google.android.material.tabs.TabLayout;
 
 public class FragmentTogether2 extends Fragment implements View.OnClickListener {
